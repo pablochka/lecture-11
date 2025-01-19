@@ -20,9 +20,28 @@
   box-shadow: 0 5px 0 #3c354a;
   /* transition-property: background-color;
   transition-duration: 500ms; */
-  transition: all 1s;
+  transition: all, 250ms, linear;
 }
-.btn-transition:hover {
-  background-color: aqua;
-  color: red;
+.btn-transition:active {
+  background-color: #0056b3;
+  top: 5px;
+  box-shadow: none;
+}
+.content-block {
+  margin: 100px 50px;
+}
+.content-block div {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+.content-translate {
+  transition: all, 0.8s, ease;
+  background-color: brown;
+}
+.content-translate:hover {
+  transform: translate(25x, 30%);
 }
