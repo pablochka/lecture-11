@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1110ox;
+  width: 100%;
+  margin-top: 100px;
+}
+.btn-transition {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #3c354a;
+  /* transition-property: background-color;
+  transition-duration: 500ms; */
+  transition: all 1s;
+}
+.btn-transition:hover {
+  background-color: aqua;
+  color: red;
+}
